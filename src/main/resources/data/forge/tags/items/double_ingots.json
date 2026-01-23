@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:double_ingots/electrum",
+    "#forge:double_ingots/lead",
+    "#forge:double_ingots/constantan"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tjfc:metal/rod/lead"
+  },
+  "result": {
+    "item": "tjfc:metal/wire/lead",
+    "count": 1
+  },
+  "tier": 2,
+  "rules": [
+    "draw_last",
+    "draw_second_last",
+    "draw_third_last"
+  ]
+}

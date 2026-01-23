@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:sheets/electrum",
+    "#forge:sheets/lead",
+    "#forge:sheets/constantan"
+  ]
+}

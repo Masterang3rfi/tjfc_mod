@@ -10,6 +10,19 @@
 
   "item.tjfc.metal.bolt.steel": "Steel Bolt",
   "item.tjfc.metal.bolt.wrought_iron": "Wrought Iron Bolt",
+
+  "item.tjfc.metal.double_ingot.constantan": "Constantan Double Ingot",
+  "item.tjfc.metal.double_ingot.electrum": "Electrum Double Ingot",
+  "item.tjfc.metal.double_ingot.lead": "Lead Double Ingot",
+
+  "item.tjfc.metal.double_sheet.constantan": "Constantan Double Sheet",
+  "item.tjfc.metal.double_sheet.electrum": "Electrum Double Sheet",
+  "item.tjfc.metal.double_sheet.lead": "Lead Double Sheet",
+
+  "item.tjfc.metal.rod.constantan": "Constantan Rod",
+  "item.tjfc.metal.rod.electrum": "Electrum Rod",
+  "item.tjfc.metal.rod.lead": "Lead Rod",
+
   "item.tjfc.metal.scrap.aluminum": "Aluminum Scrap",
   "item.tjfc.metal.scrap.bismuth": "Bismuth Scrap",
   "item.tjfc.metal.scrap.cast_iron": "Cast Iron Scrap",
@@ -22,10 +35,22 @@
   "item.tjfc.metal.scrap.tin": "Tin Scrap",
   "item.tjfc.metal.scrap.uranium": "Uranium Scrap",
   "item.tjfc.metal.scrap.zinc": "Zinc Scrap",
+
   "item.tjfc.metal.screw.steel": "Steel Screw",
   "item.tjfc.metal.screw.wrought_iron": "Wrought Iron Screw",
+
+  "item.tjfc.metal.sheet.constantan": "Constantan Sheet",
+  "item.tjfc.metal.sheet.electrum": "Electrum Sheet",
+  "item.tjfc.metal.sheet.lead": "Lead Sheet",
+
   "item.tjfc.metal.strip.steel": "Steel Strip",
   "item.tjfc.metal.strip.wrought_iron": "Wrought Iron Strip",
+
+  "item.tjfc.metal.wire.aluminum": "Unfinished Aluminum Wire",
+  "item.tjfc.metal.wire.copper": "Unfinished Copper Wire",
+  "item.tjfc.metal.wire.electrum": "Unfinished Electrum Wire",
+  "item.tjfc.metal.wire.lead": "Unfinished Lead Wire",
+  "item.tjfc.metal.wire.steel": "Unfinished Steel Wire",
 
 
 

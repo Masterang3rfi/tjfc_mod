@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tjfc:metal/scrap/copper",
+    "tjfc:metal/wire/copper"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "tjfc:metal/scrap/lead",
+    "tjfc:metal/wire/lead",
+    "tjfc:metal/rod/lead",
+    "tjfc:metal/double_ingot/lead",
+    "tjfc:metal/double_sheet/lead",
+    "tjfc:metal/sheet/lead"
+  ]
+}

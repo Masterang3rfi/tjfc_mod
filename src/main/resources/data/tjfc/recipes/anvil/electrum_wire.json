@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tjfc:metal/rod/electrum"
+  },
+  "result": {
+    "item": "tjfc:metal/wire/electrum",
+    "count": 1
+  },
+  "tier": 3,
+  "rules": [
+    "draw_last",
+    "draw_second_last",
+    "draw_third_last"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tjfc:metal/wire/lead"
+  },
+  "heat_capacity": 1.428,
+  "forging_temperature": 300,
+  "welding_temperature": 400
+}

@@ -1,0 +1,15 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": "tfc_ie_addon:mold_sheet",
+  "input": {
+    "base_ingredient": {
+      "tag": "forge:ingots/constantan"
+    },
+    "count": 2
+  },
+  "result": {
+    "item": "tjfc:metal/sheet/constantan",
+    "count": 1
+  },
+  "energy": 2400
+}

@@ -1,0 +1,8 @@
+{
+  "ingredient": {
+    "item": "tjfc:metal/rod/constantan"
+  },
+  "heat_capacity": 1.428,
+  "forging_temperature": 450,
+  "welding_temperature": 600
+}

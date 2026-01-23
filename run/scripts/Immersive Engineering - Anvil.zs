@@ -15,3 +15,9 @@ addAnvilRecipeThreeRule("anvil/plate_steel", <item:tfc:metal/ingot/steel>, <item
 addAnvilRecipeThreeRule("anvil/plate_iron", <item:tfc:metal/ingot/wrought_iron>, <item:immersiveengineering:plate_iron>, 3, "hit_last", "hit_second_last", "hit_third_last", false);
 addAnvilRecipeThreeRule("anvil/plate_gold", <item:tfc:metal/ingot/gold>, <item:immersiveengineering:plate_gold>, 1, "hit_last", "hit_second_last", "hit_third_last", false);
 
+addAnvilRecipeThreeRule("anvil/wire_copper", <item:tjfc:metal/wire/copper>, <item:immersiveengineering:wire_copper>, 1, "draw_last", "draw_second_last", "draw_third_last", false);
+addAnvilRecipeThreeRule("anvil/wire_aluminum", <item:tjfc:metal/wire/aluminum>, <item:immersiveengineering:wire_aluminum>, 1, "draw_last", "draw_second_last", "draw_third_last", false);
+addAnvilRecipeThreeRule("anvil/wire_electrum", <item:tjfc:metal/wire/electrum>, <item:immersiveengineering:wire_electrum>, 3, "draw_last", "draw_second_last", "draw_third_last", false);
+addAnvilRecipeThreeRule("anvil/wire_lead", <item:tjfc:metal/wire/lead>, <item:immersiveengineering:wire_lead>, 2, "draw_last", "draw_second_last", "draw_third_last", false);
+addAnvilRecipeThreeRule("anvil/wire_steel", <item:tjfc:metal/wire/steel>, <item:immersiveengineering:wire_steel>, 4, "draw_last", "draw_second_last", "draw_third_last", false);
+

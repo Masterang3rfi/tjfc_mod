@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tjfc:metal/double_sheet/constantan"
+  },
+  "result_fluid": {
+    "fluid": "tfc_ie_addon:metal/constantan",
+    "amount": 400
+  },
+  "temperature": 750
+}

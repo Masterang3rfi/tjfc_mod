@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "mold": "immersiveengineering:mold_rod",
+  "input": {
+    "tag": "forge:ingots/lead"
+  },
+  "result": {
+    "item": "tjfc:metal/rod/lead",
+    "count": 2
+  },
+  "energy": 2400
+}

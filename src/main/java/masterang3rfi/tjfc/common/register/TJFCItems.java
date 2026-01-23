@@ -32,23 +32,4 @@ public final class TJFCItems {
     private static RegistryObject<Item> registerBasic(String name) {
         return ITEMS.register(name, () -> new TJFCBasicItem(new Item.Properties()));
     }
-
-
-
-    //private static <E extends Enum<E>> EnumMap<E,RegistryObject<Item>> registerEnum(Class<E> enumClass, String directory) {
-        //return registerEnum(enumClass, directory,64);
-   //}
-    //private static <E extends Enum<E>> EnumMap<E,RegistryObject<Item>> registerEnum(Class<E> enumClass, String directory, int stackSize) {
-        //E[] array = enumClass.getEnumConstants();
-
-        //EnumMap<E, RegistryObject<Item>> enumMap = new EnumMap<>(enumClass);
-
-        //for (E thing : array) {
-
-            //enumMap.put(thing,registerBasicWithStackSize(directory + thing.toString().toLowerCase(),stackSize));
-
-        //}
-        //return enumMap;
-    //}
-
 }

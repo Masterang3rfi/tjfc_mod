@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tjfc:metal/rod/constantan",
+    "tjfc:metal/double_ingot/constantan",
+    "tjfc:metal/double_sheet/constantan",
+    "tjfc:metal/sheet/constantan"
+  ]
+}

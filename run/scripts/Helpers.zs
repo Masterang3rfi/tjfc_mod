@@ -3,8 +3,17 @@ import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.data.IData;
 import crafttweaker.api.fluid.IFluidStack;
 
+public class vars {
 
-public function addCraftingStairs(recipeName as string, outputItem as IItemStack, inputItem as IItemStack   ) as void {
+    public static val redstone_acid = <item:immersiveengineering:redstone_acid_bucket> | <item:tfc:metal/bucket/red_steel>.withTag({fluid: {FluidName: "immersiveengineering:redstone_acid", Amount: 1000}}) | <item:tfc:wooden_bucket>.withTag({fluid: {FluidName: "immersiveengineering:redstone_acid", Amount: 1000}});
+
+    public static val steel_ingot = <tag:items:forge:ingots/steel>;
+    public static val steel_plate = <tag:items:forge:plates/steel>;
+    public static val iron_ingot = <tag:items:forge:ingots/iron>;
+    public static val iron_plate  = <tag:items:forge:plates/iron>;
+}
+
+function addCraftingStairs(recipeName as string, outputItem as IItemStack, inputItem as IItemStack   ) as void {
     craftingTable.addShaped(recipeName, outputItem * 8, [
         [inputItem, <item:minecraft:air>, <item:minecraft:air>],
         [inputItem, inputItem, <item:minecraft:air>],
@@ -58,6 +67,24 @@ public function addAnvilRecipeTwoRule(recipeName as string, inputItem as IItemSt
         },
         "result": {
             "item": outputItem.registryName
+        },
+        "tier": tier,
+        "rules": [
+            rule0,
+            rule1
+        ],
+        "apply_forging_bonus": forging_bonus
+    });
+}
+
+public function addTestAnvil(recipeName as string, inputItem as IItemStack, outputItem as IItemStack, tier as int, rule0 as string, rule1 as string, rule2 as string, forging_bonus as bool) as void {
+    <recipetype:tfc:anvil>.addJsonRecipe(recipeName, {
+        "type": "tfc:anvil",
+        "input": {
+            "item": inputItem.registryName
+        },
+        "result": {
+            "item": outputItem.registryName,
         },
         "tier": tier,
         "rules": [

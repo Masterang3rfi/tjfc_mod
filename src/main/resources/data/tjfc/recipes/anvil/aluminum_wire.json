@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "immersiveengineering:stick_aluminum"
+  },
+  "result": {
+    "item": "tjfc:metal/wire/aluminum",
+    "count": 1
+  },
+  "tier": 1,
+  "rules": [
+    "draw_last",
+    "draw_second_last",
+    "draw_third_last"
+  ]
+}

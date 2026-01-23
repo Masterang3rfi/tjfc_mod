@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:rods/electrum",
+    "#forge:rods/lead",
+    "#forge:rods/constantan"
+  ]
+}
