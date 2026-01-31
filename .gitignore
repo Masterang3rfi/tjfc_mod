@@ -20,16 +20,7 @@ build
 # other
 eclipse
 
-run/*
-
-!run/scripts/
-!run/saves
-
-run/saves/devNormalTFC/*
-!run/saves/devNormalTFC/datapacks
-!run/resourcepacks
-
-
+run
 
 run-data
 
@@ -41,3 +32,4 @@ src/test
 # Files from Forge MDK
 forge*changelog.txt
 
+/run/

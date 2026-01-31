@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "tjfc:metal/wire/steel"
+    "tjfc:metal/wire/steel",
+    "tjfc:metal/strip/steel",
+    "tjfc:metal/screw/steel",
+    "tjfc:metal/bolt/steel"
   ]
 }

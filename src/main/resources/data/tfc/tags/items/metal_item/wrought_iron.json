@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tjfc:metal/bolt/wrought_iron",
+    "tjfc:metal/screw/wrought_iron",
+    "tjfc:metal/strip/wrought_iron"
+  ]
+}
